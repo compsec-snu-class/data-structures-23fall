@@ -222,6 +222,35 @@ All tests passed (XX assertions in XX test cases)
 
 ```
 
+### Testing for memory leaks and errors
+
+To check the memory leaks and errors in your BST implementation, you run the following commands.
+
+```
+$ pwd
+/xxx/xxx/xxx/02-BST
+$ cd build/tests
+$ valgrind ./BST_test
+[...]
+```
+
+If your program contains no memory leaks and errors, the output should be like this.
+
+```
+==5736==
+==5736== HEAP SUMMARY:
+==5736==     in use at exit: 0 bytes in 0 blocks
+==5736==   total heap usage: 32,577 allocs, 32,577 frees, 1,640,244 bytes allocated
+==5736==
+==5736== All heap blocks were freed -- no leaks are possible
+==5736==
+==5736== For lists of detected and suppressed errors, rerun with: -s
+==5736== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
+
+Ensure the output includes `All heap blocks were freed -- no leaks are possible`
+and `ERROR SUMMARY: 0 errors from 0 contexts`.
+
 ### Submission
 
 Before submitting your assignment, you should run the following commands.
