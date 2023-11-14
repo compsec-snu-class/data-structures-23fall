@@ -214,11 +214,11 @@ factor after every `HashTable::put()` operation, which invokes
 
 ### Testing your own programs
 
-In `06-hashtable` directory, you run the following commands to compile your own implementation.
+In `05-hashtable` directory, you run the following commands to compile your own implementation.
 
 ```
 $ pwd
-/xxx/xxx/xxx/06-hashtable
+/xxx/xxx/xxx/05-hashtable
 $ mkdir build
 $ cd build
 $ cmake ../
@@ -245,7 +245,7 @@ Prepare your submission with following commands:
 
 ```
 $ pwd
-06-hashtable
+05-hashtable
 $ ./prepare-submit.sh
 [*] Remove tar file...
 [*] Compress files...
@@ -255,9 +255,9 @@ $ ./prepare-submit.sh
 [*] Done! You are ready to submit
 ```
 
-Upload `assign6.tar.gz` to the submission server. The address of the
+Upload `assign5.tar.gz` to the submission server. The address of the
 submission server isn't changed since the last assignment.
-
+ 
 ### Grading
 
 We will perform the auto-testing to grade your code. Note that
