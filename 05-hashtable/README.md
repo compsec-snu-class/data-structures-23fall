@@ -1,4 +1,4 @@
-# HW#6: Hash Table
+# HW#5: Hash Table
 
 * **Due date: 11:59pm, 11/27/2023**
 * TA: Hyokyung Kim (hyokyung0808@snu.ac.kr)
