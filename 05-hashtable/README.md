@@ -40,7 +40,7 @@ features.
 * Open addressing: linear probing, quadratic probing (see #OpenAddressing)
 * Dynamically Enlarging Table (see #EnlargingTable)
 
-There are `TODO` marks in `include/hash_slot.cpp` and
+There are `TODO` marks in `include/hash_slot.hpp` and
 `include/hash_table.hpp`, and fill up all such places with your own
 implementation. Note that some `TODO` marked functions return a
 constant value (such as zero), but these are just to avoid
