@@ -1,0 +1,4 @@
+.ccls-cache
+compile_commands.json
+build
+/assign*.tar.gz
