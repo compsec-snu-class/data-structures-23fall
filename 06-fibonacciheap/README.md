@@ -1,6 +1,6 @@
 # HW#6: Fibonacci Heap
 
-* **Due date: 11:59pm, 12/11/2023**
+* **Due date: 11:59pm, 12/12/2023**
 * TA: Hyokyung Kim (hyokyung0808@snu.ac.kr)
 
 ## Goals

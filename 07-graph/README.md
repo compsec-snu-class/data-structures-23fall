@@ -1,6 +1,6 @@
 # HW#7: Graph Algorithms
 
-* **Due date: 11:59pm, 12/22/2023**
+* **Due date: 11:59pm, 12/23/2023 (No Delay Submission!!)**
 * TA: Byeongwook Kim (rlaquddnr904@snu.ac.kr)
 
 ## Goals
