@@ -116,7 +116,7 @@ TEST_CASE("topological_sort", "[graph]") {
                                      {3, 4, 2.0f},
                                      {4, 5, 2.0f}};
 
-        Graph g(8, topological_edges, GraphType::DIRECTED);
+        Graph g(6, topological_edges, GraphType::DIRECTED);
         std::vector<vertex_t> topological_result
             = topological_sort(g);
         std::vector<vertex_t> answer = {0, 1, 2, 3, 4, 5};
